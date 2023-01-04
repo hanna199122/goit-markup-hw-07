@@ -1,0 +1,23 @@
+ 
+    .link {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    
+    .list {
+        list-style: none;
+    }
+
+    img {
+        display: block;
+    }
+     
+    body {
+        font-family:  var(--main-font);
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--secondary-header-color);
+        background-color: var(--background-color);
+    }

@@ -1,0 +1,195 @@
+
+    .footer {
+        background: var(--footer-background);
+        padding: 60px 0px;
+        }
+    
+    
+    .footer-logo {
+        color: var(--background-color);
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+    
+    
+    .address-wrap {
+        margin-right: 70px;
+    }
+    
+    .footer-list {
+        list-style: none;
+        font-style: normal;
+    }
+    
+    
+    .email  {
+        font-size: 14px;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+    }
+    
+    
+    address ul li:not(:last-child) {
+        margin-bottom: 9px;
+    }
+    
+    
+    .tel {
+        font-size: 14px;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.6);  
+        text-decoration: none;
+    }
+    
+    
+    .map {
+        font-size: 14px;
+        line-height: 1.7;
+        color: var(--primary-header-color);
+        text-decoration: none;
+    }
+    
+    .logo-wrap {
+        margin-bottom: 20px;
+    }
+    
+    .footer-link {
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .footer-link:hover,
+    .footer-link:focus  {
+    color: var(--accent-color);
+    }
+    
+    .footer .conteiner {
+        display: flex;
+        align-items: baseline;
+    }
+    
+    
+    .socials-wrap {
+    margin-right: auto;
+    }
+    
+    .footer-socials  {
+        display: block;
+    }
+    
+    
+    .box-footer-soc  {
+        width: (1200px / 2 - 870px);
+        display: block;
+    }
+    
+    .call-to-action {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.16;
+        color: var(--primary-header-color);
+        margin-bottom: 20px;
+    }
+    
+    .footer-soc-list {
+        display: flex;
+    }
+    
+    .footer-soc-link  {
+        width: 44px;
+        height: 44px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        color: var(--background-color);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .footer-soc-icons {
+        fill: var(--background-color);
+    }
+    
+    
+    .footer-soc-item:not(:last-child) {
+        margin-right: 10px;
+    }
+    
+    .footer-soc-link  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .footer-soc-link:hover,
+    .footer-soc-link:focus  {
+        background-color: var(--accent-color);
+    }
+    
+    .email-input-wrap {
+        
+    }
+    
+    .field-input-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .input-footer {
+        width: 358px;
+        height: 50px;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 1.42;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        padding: 15px 0 15px 16px;
+        background-color: transparent;
+        display: block;
+        margin-right: 12px;
+    }
+    
+    .input-footer:focus,
+    .input-footer:hover   {
+        color: var(--accent-color);
+        border: 1px solid var(--accent-color);
+        border-radius: 4px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .button-footer {
+        width: 200px;
+        height: 50px;
+        border: 0px;
+        border-radius: 4px;
+        letter-spacing: 0.06em;
+        color: var(--background-color);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        background-color: var(--accent-color);
+        padding: 10px 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .button-footer:hover,
+    .button-footer:focus {
+    background-color: var(--hover-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .icon-botton  {
+        fill: var(--primary-header-color);
+        margin-left: 10px;
+        
+        
+    }

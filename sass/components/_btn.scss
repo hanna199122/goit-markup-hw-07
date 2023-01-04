@@ -1,0 +1,13 @@
+.button {
+    color: var(--secondary-header-color);
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover,
+.button:focus,
+.button-active {
+    background-color: var(--hover-color);
+    color: var(--primary-header-color);
+}
