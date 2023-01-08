@@ -1,66 +1,61 @@
-
-
-
 .developers {
     background-color:var(--background-second);
     padding: 94px 0px;
 }
 
-
-.developers-title {
+.subtitle {
     margin-bottom: 50px;
 }
 
-.developers-list {
-    list-style: none;
+.card {
     display: flex;
+    & li img  {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
 }
 
-
-.developers-item  {
+.card__item {
     box-shadow: var(--developers-cards-shadow);
     border-radius: 0px 0px 4px 4px;
     background: var(--primary-header-color);
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.conteiner-description {
+.card__body {
     padding: 30px 0;
     text-align: center;
 }
 
-
-.developers-list li img  {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-
-.social-list {
+.social {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.developers-soc-items {
+.social__items {
     width: 44px;
     height: 44px;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+    
 }
 
-
-.dev-soc-icons {
+.social__icon {
     fill: var(--icon-color);
 }
-.developers-soc-link:hover{
-    background-color: var(--accent-color);
-}
 
-.developers-soc-link:hover .dev-soc-icons{
+
+.social__link:hover .social__icon  {
     fill: var(--background-color);
 }
 
-.developers-soc-link {
+.social__link {
     width: 100%;
     height: 100%;
     display: flex;
@@ -68,19 +63,13 @@
     align-items: center;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.developers-soc-items:not(:last-child) {
-    margin-right: 10px;
-}
-
-
-.developers-item:not(:last-child) {
-    margin-right: 30px;
+    &:hover{
+        background-color: var(--accent-color);
+    }
 }
 
 
-.developers-name {
+.card__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -88,8 +77,7 @@
     margin-bottom: 10px;
 }
 
-
-.developers-description {
+.card__copy {
     font-size: 16px;
     line-height: 1.19;
     color: var(--main-text-color);

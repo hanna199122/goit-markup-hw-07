@@ -3,14 +3,23 @@
 .about {
     background: var(--primary-header-color);
     padding: 0px 0px 94px;
+   
 }
 
-.about-thumb {
+.decisions__thumb {
     position: relative;
 }
 
+.subtitle  {
+    color: var(--secondary-header-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    margin: 0px auto 50px;
+    text-align: center;
+}
 
-.about-cover-text {
+.decisions__text {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -28,17 +37,14 @@
    
 }
 
-.about-title  {
-    margin: 0px auto 50px;
-}
 
-
-.about-list {
+.decisions {
     display: flex;
+    & li:not(:last-child)  {
+        margin-right: 30px;
+    }
 } 
 
-.about-list li:not(:last-child)  {
-    margin-right: 30px;
-}
+
 
 
