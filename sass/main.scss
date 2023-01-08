@@ -1,52 +1,32 @@
-@import "./base/reset";
-@import "./base/common";
-@import "./base/visuallyHidden";
 
-@import "./utils/vars";
 
+
+@import "./utils/variables";
+
+@import "./components/reset";
+@import "./components/visuallyHidden";
+@import "./components/common";
 @import "./components/conteiner";
 @import "./components/btn";
 @import "./components/title";
 @import "./components/description";
 @import "./components/name";
 
-@import "./layouts/header";
-@import "./layouts/hero";
-@import "./layouts/portfolio";
-@import "./layouts/clients";
-@import "./layouts/footer";
-@import "./layouts/portfolioPage";
-@import "./layouts/modal";
+
+@import "./components/header";
+@import "./components/hero";
+@import "./components/portfolio";
+@import "./components/about";
+@import "./components/developers";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/portfolioPage";
+@import "./components/modal";
 
 
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    /* ----------- CLIENTS ---------- */
-    
-    
-    
-    /* ----------- PORTFOLIO PAGE ---------- */
-    
-    
-    
-    
-    
-    
-    
-    /* ----------- footer ---------- */
-    
-    
-    
-    
-    /* ----------- backdrop ---------- */
+
     
     

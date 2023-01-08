@@ -13,35 +13,38 @@
 </head>
 <body>
     <header class="header"> 
-        <div class="conteiner links">
-        <nav class="header-nav">
-            <a class="logo" href="./index.html">Web<span class="header-logo">Studio</span>
-            </a>
-    
-            <ul class="header-list list">
-                <li class="page-item-active"><a href="./index.html" class="header-link link link-active">Студія</a></li>
+        <div class="conteiner">
+            <div class="wrapper-header">
+                <nav class="navigation">
+                    <a class="logo" href="./index.html">Web<span class="logo__header">Studio</span>
+                    </a>
+            
+                    <ul class="navigation__list list">
+                        <li class="navigation__item"><a href="./index.html" class="navigation__link link link-active">Студія</a></li>
 
-                <li class="page-item-active"> <a href="./portfolio.html" class="header-link  link">Портфоліо</a></li>
+                        <li class="navigation__item"> <a href="./portfolio.html" class="navigation__link link">Портфоліо</a></li>
 
-                <li class="page-item-active"><a href="" class="header-link link">Контакти</a></li>
-            </ul>
-        </nav> 
-            <ul class="header-list2 list">
-                <li class="header-item">
-                    <a href="mailto:info@devstudio.com" class="header-email head-icons-link link"><svg class="head-icons icon-email"><use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com </a></li>
+                        <li class="navigation__item"><a href="" class="navigation__link link">Контакти</a></li>
+                    </ul>
+                </nav> 
+                <div class="connection">
+                    <ul class="connection__list list">
+                        <li class="connection__item">
+                            <a href="mailto:info@devstudio.com" class="connection__link link"><svg class="connection__email"><use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com </a></li>
 
-                <li class="header-item">
-                    <a href="tel:80961111111" class="header-tel head-icons-link link"><svg class="head-icons icon-mobile"><use href="./images/icons.svg#icon-mobile"></use></svg>+38 096 111 11 11</a></li>
-            </ul>
+                        <li class="connection__item">
+                            <a href="tel:80961111111" class=" connection__link link"><svg class="connection__mobile"><use href="./images/icons.svg#icon-mobile"></use></svg>+38 096 111 11 11</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>   
     </header>   
 <main>
-
     <section class="hero">
         <div class="conteiner">
-            <div class="centre">
-                <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
-                <button type="button" class="btn-main-site button" data-modal-open>Замовити послугу</button>
+            <div class="idia">
+                <h1 class="title">Ефективні рішення для <br> вашого бізнесу</h1>
+                <button type="button" class="btn-main button" data-modal-open>Замовити послугу</button>
             </div>
         </div>
     </section> 
@@ -49,30 +52,30 @@
     <section class="portfolio">
         <div class="conteiner">
             <h2 class="visually-hidden title"> Наші переваги </h2>
-                <ul class="portfolio-list list">
+                <ul class="priorities list">
 
-                    <li class="list-icon">
-                        <div class="portfolio-icon-box"><svg class="portfolio-icons" width="70px" height="70px"><use href="./images/icons.svg#icon-antenna"></use> </svg></div>
-                        <h3 class="portfolio-pre-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                        <p class="portfolio-txt">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <li class="priorities__item">
+                        <div class="priorities__box"><svg class="priorities__icon" width="70px" height="70px"><use href="./images/icons.svg#icon-antenna"></use> </svg></div>
+                        <h3 class="priorities__pre-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="priorities__txt">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                     </li>
 
-                    <li class="list-icon">
-                        <div class="portfolio-icon-box"><svg class="portfolio-icons" width="70px" height="70px"><use href="./images/icons.svg#icon-clock" class="portf-icons-link"></use> </svg></div>
-                        <h3 class="portfolio-pre-title">ПУНКТУАЛЬНІСТЬ</h3>
-                        <p class="portfolio-txt">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <li class="priorities__item">
+                        <div class="priorities__box"><svg class="priorities__icon" width="70px" height="70px"><use href="./images/icons.svg#icon-clock"></use> </svg></div>
+                        <h3 class="priorities__pre-title">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="priorities__txt">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                     </li>
 
-                    <li class="list-icon">
-                        <div class="portfolio-icon-box"><svg class="portfolio-icons" width="70px" height="70px"><use href="./images/icons.svg#icon-diagram"></use> </svg></div>
-                        <h3 class="portfolio-pre-title">ПЛАНУВАННЯ</h3>
-                        <p class="portfolio-txt">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <li class="priorities__item">
+                        <div class="priorities__box"><svg class="priorities__icon" width="70px" height="70px"><use href="./images/icons.svg#icon-diagram"></use> </svg></div>
+                        <h3 class="priorities__pre-title">ПЛАНУВАННЯ</h3>
+                        <p class="priorities__txt">Так само консультація з широким активом значною мірою зумовлює.</p>
                     </li>
 
-                    <li class="list-icon">
-                        <div class="portfolio-icon-box"><svg class="portfolio-icons" width="70px" height="70px"><use href="./images/icons.svg#icon-astronaut"></use> </svg></div>
-                        <h3 class="portfolio-pre-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                        <p class="portfolio-txt">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <li class="priorities__item">
+                        <div class="priorities__box"><svg class="priorities__icon" width="70px" height="70px"><use href="./images/icons.svg#icon-astronaut"></use> </svg></div>
+                        <h3 class="priorities__pre-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="priorities__txt">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                     </li>
                 </ul>
             </div> 

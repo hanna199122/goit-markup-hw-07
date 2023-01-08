@@ -11,12 +11,11 @@
     margin-right: auto;
 }   
 
-.centre  {
+.idia  {
     text-align: center;
 }
 
-
-.hero-title  {
+.title  {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -26,17 +25,13 @@
     margin-bottom: 40px;
 }
 
-
-.btn-main-site {
+.btn-main {
     color: var(--background-color);
     font-family: inherit;
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
     margin: 0 auto;
     background-color:var(--accent-color);
     padding: 10px 32px;
-    border: none;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

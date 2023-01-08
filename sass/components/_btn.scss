@@ -1,13 +1,15 @@
-.button {
-    color: var(--secondary-header-color);
-    font-family: inherit;
-    cursor: pointer;
-    border-radius: 4px;
-}
 
-.button:hover,
-.button:focus,
-.button-active {
+.button {
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus,
+    &-active {
     background-color: var(--hover-color);
-    color: var(--primary-header-color);
+}
 }
