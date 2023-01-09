@@ -9,11 +9,12 @@
 
 .card-list {
     display: flex;
-    & li img  {
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
+}
+
+.card-list li img  {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .card-list__item {
@@ -48,12 +49,12 @@
 
 .social-list__icon {
     fill: var(--icon-color);
+    .social-list__link:hover & {
+        fill: var(--background-color);
+    }
+    
 }
 
-
-.social-list__link:hover .social-list__icon  {
-    fill: var(--background-color);
-}
 
 .social-list__link {
     width: 100%;

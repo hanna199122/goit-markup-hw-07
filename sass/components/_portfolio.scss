@@ -6,39 +6,43 @@
 
 .priorities-list  {
     display: flex;
-    & li:not(:last-child) {
-        margin-right: 30px;
-    }
-    & li:last-child  {
-        margin-right: auto;
-    }
+    
+}
+.priorities-list__item:not(:last-child) {
+    margin-right: 30px;
+}
 
-    &__pre-title {
+.priorities-list__item:last-child  {
+    margin-right: auto;
+}
+
+.priorities-list__pre-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--secondary-header-color);
     margin-bottom: 10px;
-    }
-    &__box {
-        display: block;
-        margin-bottom: 30px;
-        background-color: var(--background-second);
-        height: 120px;
-        padding-top: 25px;
-        padding-left: 102px;
-        padding-right: 102px;
-        padding-bottom: 25px;
-        border-radius: 4px;
-    }
+}
 
-    &__txt {
+.priorities-list__box {
+    display: block;
+    margin-bottom: 30px;
+    background-color: var(--background-second);
+    height: 120px;
+    padding-top: 25px;
+    padding-left: 102px;
+    padding-right: 102px;
+    padding-bottom: 25px;
+    border-radius: 4px;
+}
+
+.priorities-list__txt {
     line-height: 1.7;
     color: var(--main-text-color);
     max-width: 270px;
-    }
 }
+
 
 
 

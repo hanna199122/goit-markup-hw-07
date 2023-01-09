@@ -22,29 +22,19 @@
     justify-content: center;
     border-radius: 4px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-}
-
-.labels__link:hover {
-    border-color: var(--accent-color);
+    &:hover {
+        border-color: var(--accent-color);
+    }
+    &:hover, &:focus {
+        color: var(--accent-color); 
+    }
 }
 
 .labels__icons  {
     fill: var(--icon-color);
+    .labels__link:hover & {
+        fill: var(--accent-color);
+     }
 }
 
-.labels__link:hover .labels__icons {
-   fill: var(--accent-color);
-  
-}
-
-.labels__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &:hover,
-    &:focus {
-    color: var(--accent-color);
-}
-}
 
