@@ -6,7 +6,14 @@
    
 }
 
-.decisions__thumb {
+.decisions-list {
+    display: flex;
+    & li:not(:last-child)  {
+        margin-right: 30px;
+    }
+} 
+
+.decisions-list__thumb {
     position: relative;
 }
 
@@ -19,7 +26,7 @@
     text-align: center;
 }
 
-.decisions__text {
+.decisions-list__text {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -38,12 +45,7 @@
 }
 
 
-.decisions {
-    display: flex;
-    & li:not(:last-child)  {
-        margin-right: 30px;
-    }
-} 
+
 
 
 

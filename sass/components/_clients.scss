@@ -2,12 +2,12 @@
     padding: 94px 0;
 }
 
-.labels {
+.labels-list {
     display: flex;
     align-items: center;
 
 
-.labels__item:not(:last-child)  {
+.labels-list__item:not(:last-child)  {
     margin-right: 30px;
 }
 }

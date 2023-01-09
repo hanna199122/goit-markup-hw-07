@@ -6,11 +6,6 @@
     display: flex;
 }
 
-.logo__header{
-    color: var(--logo-color-part);
-    margin-right: 93px;
-}
-
 
 .logo {
     color: var(--accent-color);
@@ -21,6 +16,9 @@
     display: block;
 }
 
+.logo__header{
+    margin-right: 93px;
+}
 
 .navigation__list {
     font-size: 14px;
