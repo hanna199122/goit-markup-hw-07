@@ -13,7 +13,7 @@
 }
 
 
-.labels__link {
+.labels-list__link {
     width: 170px;
     height: 92px;
     display: flex;
@@ -30,9 +30,9 @@
     }
 }
 
-.labels__icons  {
+.labels-list__icons  {
     fill: var(--icon-color);
-    .labels__link:hover & {
+    .labels-list__link:hover & {
         fill: var(--accent-color);
      }
 }
