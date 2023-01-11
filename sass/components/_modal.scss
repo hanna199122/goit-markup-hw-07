@@ -79,6 +79,11 @@
     margin-bottom: 4px;
 }
 
+.modal-input-group {
+    position:relative;
+    display: block;
+    margin-bottom: 10px;
+}
 .modal-input-group__input {
     width: 100%;
     height: 40px;
@@ -90,9 +95,6 @@
     line-height: 1.16;
     outline: none;
     
-    position:relative;
-    display: block;
-    margin-bottom: 10px;
 
     &:focus,
     &:hover {
@@ -109,7 +111,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input-group__link {
+.modal-input-group__icon {
     position: absolute;
     display: block;
     top: 50%;
@@ -173,7 +175,7 @@
     .checkbox__body:checked + &  {
         border-color: var(--accent-color);
         background-color: var(--accent-color);
-        background-image: url(../images/icon\ check.svg);
+        background-image: url(/images/icon-check.svg);
         background-size:contain;
     }
 }

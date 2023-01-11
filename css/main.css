@@ -857,6 +857,12 @@ address ul li:not(:last-child) {
   margin-bottom: 4px;
 }
 
+.modal-input-group {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+
 .modal-input-group__input {
   width: 100%;
   height: 40px;
@@ -867,9 +873,6 @@ address ul li:not(:last-child) {
   letter-spacing: 0.01em;
   line-height: 1.16;
   outline: none;
-  position: relative;
-  display: block;
-  margin-bottom: 10px;
 }
 .modal-input-group__input:focus, .modal-input-group__input:hover {
   color: var(--accent-color);
@@ -884,7 +887,7 @@ address ul li:not(:last-child) {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input-group__link {
+.modal-input-group__icon {
   position: absolute;
   display: block;
   top: 50%;
@@ -945,7 +948,7 @@ address ul li:not(:last-child) {
 .checkbox__body:checked + .checkbox__icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
-  background-image: url(../images/icon\ check.svg);
+  background-image: url(/images/icon-check.svg);
   background-size: contain;
 }
 
